@@ -63,10 +63,12 @@ def all_winter_holiday_supplies(holiday_hash)
     returned_arr = []
     if season == :winter
       holidays.each do |holiday, supply_array|
-        binding.pry
+        # binding.pry
+        returned_arr << supply_array
       end
     end
   end
+  returned_arr
 end
 
 def all_supplies_in_holidays(holiday_hash)
