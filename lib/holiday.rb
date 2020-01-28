@@ -97,7 +97,10 @@ def all_holidays_with_bbq(holiday_hash)
 
   # first layer seasons, then second layer holidays while checking for BBQ
   holiday_hash.each do |season, holidays|
-    binding.pry
+    # binding.pry
+    season.each do |holiday|
+      
+    end
   end
 end
 
