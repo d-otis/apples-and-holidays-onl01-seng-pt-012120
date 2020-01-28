@@ -68,7 +68,7 @@ def all_winter_holiday_supplies(holiday_hash)
       end
     end
   end
-  returned_arr
+  returned_arr.flatten
 end
 
 def all_supplies_in_holidays(holiday_hash)
