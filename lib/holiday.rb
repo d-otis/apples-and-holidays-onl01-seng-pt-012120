@@ -66,9 +66,10 @@ def all_winter_holiday_supplies(holiday_hash)
         returned_arr << supply_array
       end
     end
-  end
-  binding.pry
+    binding.pry
   returned_arr.flatten
+  end
+  
 end
 
 def all_supplies_in_holidays(holiday_hash)
