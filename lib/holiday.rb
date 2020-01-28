@@ -82,7 +82,7 @@ def all_supplies_in_holidays(holiday_hash)
     # binding.pry
     puts "#{season.to_s.capitalize}:"
     holidays.each do |holiday, supply_array|
-    
+      puts 
     end
     
   end
