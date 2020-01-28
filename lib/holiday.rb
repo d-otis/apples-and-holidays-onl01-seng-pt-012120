@@ -96,7 +96,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 
   # first layer seasons, then second layer holidays while checking for BBQ
-  holiday_hash.each do |seasons, holidays|
+  holiday_hash.each do |season, holidays|
     binding.pry
   end
 end
